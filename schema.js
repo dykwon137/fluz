@@ -35,6 +35,10 @@ relationship: null,
 daily_cal_intake: '1800',
 daily_cal_spend: '500' } ];
 
+friendlists = [
+ {listname: 'mylist', friendname: 'User1'}
+];
+
 const UserType = new GraphQLObjectType({
   name: 'User',
   fields: () => ({
