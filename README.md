@@ -8,7 +8,7 @@ it returns the information of the user who is on that friendlist. Currently, all
 #
 Second goal is setting up the postgresql database, which is what postgres_server.js does. 
 It pings the postgresql server which I created using pgadmin and returns the table with data in console.log. 
-I wasn't able to connect the result from the database query to schema and graphiql. 
+I wasn't able to connect the result from the database query to schema and graphiql, which is the reason why all the data are hardcoded in the schema.ja. 
 #
 Next steps would be establishing the datbase connection, which is a prerequisite for creating mutations of users and their properties and friendlists.
 Then continue on with user mutations, then friendlist mutations, and finally the front-end interface for creating users and adding friends. 
